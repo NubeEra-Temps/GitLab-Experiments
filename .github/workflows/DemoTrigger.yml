@@ -1,5 +1,6 @@
 name: 'Trigger Demo'
-on: [push]
+on: [workflow_dispatch]
+# on: [push]
 jobs:
   Job1-Message-Ubuntu-Actions:
     runs-on: ubuntu-latest
